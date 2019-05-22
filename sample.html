@@ -1,0 +1,25 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+	<style type="text/css">
+	@font-face {
+	    font-family: 'Certi'; /*a name to be used later*/
+	    src: url('Certificate.ttf'); /*URL to font*/
+	}
+	p.b {
+  		font-family: Certi;
+	}
+	</style>
+</head>
+
+<body style="margin: auto; border: 7px solid #90d501;">
+	<div style="text-align: center;  margin-top: 100px;">
+		<p><img width="400" height="160" src="examples/img/1.png" /></p>
+		<p class="b" style="font-size:30px"><span style="font-size: 40px;"><u>Certification of Appreciation</u></span><br></p>
+
+
+		<p style="color: #2d2d2d">This is to certify<span style="font-size: 40px;"> {{ Name }} </span><br> from JIT for the excellent performance in Codekata with a score of <br><b> {{ codekata_score}} </b></p>
+		<p style="font-size:30px">Date: {{ %now% }}</p>
+	</div>
+</body>
+</html>

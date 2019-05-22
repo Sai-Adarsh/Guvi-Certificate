@@ -1,0 +1,14 @@
+//create "rising" column
+//rising row
+
+=(codekata_score - previous_codekata)
+
+// Apply this to every cell
+
+//create "shining" column 
+
+=INDEX(name_column_range,MATCH(MAX(shining_column_range),shining_column_range,0))
+
+//create "rising" column 
+
+=INDEX(name_column_range,MATCH(MAX(rising_column_range),rising_column_range,0))

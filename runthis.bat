@@ -1,0 +1,1 @@
+start php certgen.php -i sample.html -o ./output/ -d sample.csv -e "Name"
